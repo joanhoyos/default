@@ -1,0 +1,158 @@
+{% extends "layout.html" %}
+
+
+{% block content %}
+   <div class="jumbotron">
+     <h4 class="display-4">PORTAFOLIO</h4>
+     <hr class="my-4">
+     <p>Python es el primer lenguaje de programacion que trato de aprender,
+      es por ello, que decidi realizar una pagina web con base  
+      en tutoriales de youtube.
+      Dejame enseñarte mi PORTAFOLIO, quizas encuentres algo en lo que
+      podamos trabajar juntos.
+     </p>
+  </div>
+
+
+
+
+
+ 
+
+
+  <div class="card-group">
+    <div class="card">
+      <img src="{{ url_for('static', filename='imgs/code.png')}}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Code</h5>
+        <p class="card-text"> Aprender, Escribir  y leer codigo son la base de mi portafolio,
+          con ello pienso lograr cual proyecto exista en el camino.
+        </p>
+        <p>I am a programing for 1 year, i learn about html, css, js or javascript. 
+          Also, I learn a litle about python and linux.
+          I hope learn everything in programing</p>
+        <p class="card-text"><small class="text-muted">Unete ó uneme a tu proyecto</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="{{ url_for('static', filename='imgs/youtube.png')}}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Youtube</h5>
+        <p class="card-text">Cree un canal de youtube, con la intencion
+          de demostrar de que es capaz el sofsware y el hadware antiguo
+        sobre todo a nivel de gaming y trabajo. Sin embargo, estoy abierto
+      a la posibildiad de expandir el canal y crear nuevo contenido audiovisual </p>
+      <p>Excellent way to learn, earn money and entertain yourself</p>
+        <p class="card-text"><small class="text-muted">Dejame saber que contenido deseas</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="{{ url_for('static', filename='imgs/minions.png')}}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Team</h5>
+        <p class="card-text">El trabajo en equipo es una de mis fortalezas...
+          Solo dejame saber que proyecto estas realizando
+          y con gusto y talento te ayudare a llevarlo a cabo.
+        </p>
+        <div class="card-footer text-muted">
+          Let's do it
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="card-group">
+    <div class="card">
+      <img src="{{ url_for('static', filename='imgs/music.png')}}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Music</h5>
+        <p class="card-text">La musica es mi hobbie, no soy buneo en ello, pro me gusta tocar
+          algunas canciones en guitarra.
+          si deseas aprender un poco de ello me puedes contactar y aprenderemos juntos.
+        </p>
+        <p class="card-text"><small class="text-muted">guitarra para noobs </small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="{{ url_for('static', filename='imgs/gaming.png')}}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">VideoGames</h5>
+        <p class="card-text">
+          Los videogames son mi pasion y la de muchos otros,
+          que esperas para divertirte y aprender jugando.
+          <p class="card-text"><small class="text-muted">Valorant, LOL y otros esperan...</small></p>
+        </p>
+      </div>
+    </div>
+    
+    <div class="card">
+      <img src="{{ url_for('static', filename='imgs/computer.png')}}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Computer</h5>
+        <p class="card-text">Vendo componentes parar computadoras de escritorio y portatiles,
+          quizas tengo lo qu ete falta para tener o mejorar esa computadora master race que deseas
+          para el gaming o el trabajo. 
+        
+        </p>
+        <h6>Repair</h6>
+        <p>igualmente, reparo algunas cositas tecnologicas,pregunta por ello.</p>
+        <p class="card-text"><small class="text-muted">Mira mi pagina de mercado libre </small></p>
+      </div>
+    </div>
+  </div>
+
+
+ 
+
+ <!-- footer -->
+
+ <footer class="footer pb-3" id="footer">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col text-center mt-3">
+        <h5 class="fadeIn">Contacto</h5>
+      </div>
+    </div>
+    <div class="row social-row mt-2 mb-2">
+      <div class="col mb-3 text-center">
+        <a href="https://github.com/joanhoys0719">
+          <img src="/static/imgs/contact/github.png" width="35" alt="">
+        </a>
+      </div>
+
+      
+
+      <div class="col mb-3 text-center">
+        <a href="https://www.facebook.com/joan.hoyos.710">
+          <img src="/static/imgs/contact/facebook.svg" width="35" alt="">
+        </a>
+      </div>
+      <div class="col mb-3 text-center">
+        <a href="https://www.instagram.com/0719sebas/">
+          <img src="/static/imgs/contact/instagram.svg" width="35" alt="">
+        </a>
+      </div>
+      
+      <div class="col mb-3 text-center">
+        <a href="https://www.twitch.tv/defaultg0719">
+          <img src="/static/imgs/contact/thitch.png" width="35" alt="">
+        </a>
+      </div>
+
+      <div class="col mb-3 text-center">
+        <a href="https://www.youtube.com/channel/UCu3TqQOcVqEQoUc_JNUW02A?view_as=subscriber">
+          <img src="/static/imgs/contact/youtube1.svg" width="35" alt="">
+        </a>
+      </div>
+
+    </div>
+    <span>Design by <a href="https://github.com/joanhoys0719"> Default G</a></span>
+  </div>
+</footer>
+</div>
+
+
+{% endblock %}
